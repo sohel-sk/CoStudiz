@@ -1,2 +1,97 @@
 backend/src/main/resources/application.properties
 backend/compose.yaml
+.idea
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Gradle wrapper files
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# Ignore Spring Boot specific files
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Ignore dependency directories
+lib/
+libs/
+
+# Ignore IDE-specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.swo
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore application-specific files
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Ignore test-related files
+*.test
+*.spec
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports
+coverage/
+jacoco.exec
+*.cov
+
+# Ignore local configuration files
+config/
+local.properties
+
+# Ignore dependency lock files
+*.lock
+yarn.lock
+package-lock.json
+
+# Ignore miscellaneous
+*.cache
+*.pid
+*.seed
+*.rdb
+*.pid.lock
