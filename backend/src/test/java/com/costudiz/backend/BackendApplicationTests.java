@@ -1,4 +1,4 @@
-package com.sksohel.backend;
+package com.costudiz.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
